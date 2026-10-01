@@ -628,25 +628,25 @@
         "setActive": "Set Active",
         "noServersFound": "No {{status}} private servers found.",
         "byCreator": "By ",
-        "allowJoining": "Allow Joining"
+        "allowJoining": "参加を許可する"
     },
     "firstAccount": {
-        "label": "First Account",
-        "yes": "Yes",
-        "no": "No",
+        "label": "最初のアカウントか",
+        "yes": "はい",
+        "no": "いいえ",
         "tooltip": "This shows if Roblox thinks your account is your first account. <br>This info comes directly from Roblox but may not be accurate.",
-        "createdDate": "First account created: {{date}}"
+        "createdDate": "最初のアカウントが作成された日: {{date}}"
     },
     "trustedCreator": {
-        "label": "In Trusted Creator Program",
-        "yes": "Yes",
-        "no": "No",
+        "label": "信頼されたクリエイタープログラムに参加しているか",
+        "yes": "はい",
+        "no": "いいえ",
         "tooltip": "Found a way to check this and thought it was cool :)"
     },
     "legacyThemeSwitcher": {
-        "label": "Theme",
-        "light": "Light",
-        "dark": "Dark"
+        "label": "テーマ",
+        "light": "ライト",
+        "dark": "ダーク"
     },
     "customThemeEditor": {
         "background": {
