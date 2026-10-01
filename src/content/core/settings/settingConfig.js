@@ -72,6 +72,13 @@ export const SETTINGS_CONFIG = {
                         value: 'zh-CHS',
                     },
                     {
+                        label: languageLabel(
+                            'Japanese (日本語)',
+                            'ja-jp'
+                        ),
+                        value: 'ja-jp'
+                    }
+                    {
                         label: languageLabel('Arabic (عربي)', 'ar'),
                         value: 'ar',
                     },
