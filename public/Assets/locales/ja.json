@@ -353,7 +353,7 @@
         "empty": "このカテゴリにはブックマークされたゲームはありません。"
     },
     "homeLayout": {
-        "untitled": "Untitled",
+        "untitled": "無題",
         "empty": "RoValra was unable to find the layout, refresh and try again.",
         "reset": "リセット",
         "save": "保存",
@@ -371,7 +371,7 @@
         "hide": "非表示"
     },
     "sidebarLayout": {
-        "untitled": "無名",
+        "untitled": "無題",
         "empty": "RoValraはサイドバーのボタンを一切見つけることができませんでした",
         "reset": "リセット",
         "save": "保存",
@@ -433,8 +433,8 @@
         "topic": "過小評価されているゲーム達",
         "subtitle": "これらの過小評価されているゲーム達はRoValraのコミュニティで選ばれています",
         "rotates": "Rotates",
-        "suggestOnDiscord": "Suggest underrated games on {{discord}}",
-        "ageRestrictionWarning": "Some of these games may be locked to 16+ because of Roblox's 250 HEP requirement."
+        "suggestOnDiscord": "過小評価されているゲームを提案する場合は {{discord}} で",
+        "ageRestrictionWarning": "これらのゲームの中には、Robloxの250 HEP要件により、16歳以上限定となっているものもあるかもしれません"
     },
     "playtime": {
         "topic": "プレイ時間",
@@ -448,15 +448,15 @@
         "minutes": "{{value}} 分"
     },
     "mutualFriends": {
-        "pill_one": "{{count}} Mutual Friend",
-        "pill_other": "{{count}} Mutual Friends",
-        "tooltip": "Friends you have in common with this user",
-        "tab": "Mutuals",
-        "title": "Mutual Friends ({{count}})",
-        "empty": "You have no mutual friends with this user."
+        "pill_one": "{{count}}人の共通の友達",
+        "pill_other": "{{count}}人の共通の友達",
+        "tooltip": "このユーザーと共通の友達",
+        "tab": "共通",
+        "title": "共通のフレンド ({{count}})",
+        "empty": "このユーザーとは共通の友達がいません。"
     },
     "trustedFriends": {
-        "pendingConnection": "Pending Trusted Friend",
+        "pendingConnection": "信頼できる友達（承認待ち）",
         "pendingRequest": "Trusted Friend Request Pending",
         "addConnection": "Add Trusted Friend",
         "addConfirmation": "Are you sure you want to send a trusted Friend request?",
@@ -467,80 +467,80 @@
         "errorSending": "Error Sending",
         "acceptConnection": "Accept Trusted Friend",
         "acceptConfirmation": "Are you sure you want to accept this trusted Friend request?",
-        "accept": "Accept",
-        "accepting": "Accepting...",
+        "accept": "承認",
+        "accepting": "承認中...",
         "requestAccepted": "Trusted Friend request accepted!",
         "acceptFailed": "Failed to accept trusted Friend request.",
-        "errorAccepting": "Error Accepting",
-        "removeConnection": "Remove Trusted Friend",
-        "removeConfirmation": "Are you sure you want to remove this trusted Friend?",
-        "remove": "Remove",
-        "removing": "Removing...",
+        "errorAccepting": "承認エラー",
+        "removeConnection": "信頼できる友達を削除",
+        "removeConfirmation": "この信頼できる友達を削除してもよろしいですか？",
+        "remove": "削除",
+        "removing": "削除中...",
         "connectionRemoved": "Trusted Friend removed!",
         "removeFailed": "Failed to remove trusted Friend.",
         "errorRemoving": "Error Removing"
     },
     "chatEligibility": {
-        "canChat": "You can chat with this user.",
-        "cannotChat": "This user is outside your chat age range.",
-        "ageCheckRequired": "This user has not completed an age check."
+        "canChat": "このユーザーとチャットできます。",
+        "cannotChat": "このユーザーはあなたのチャット対象年齢範囲外です。",
+        "ageCheckRequired": "このユーザーは年齢確認を完了していません。"
     },
     "categorizeWearing": {
-        "currentlyWearing": "Currently Wearing",
-        "items": "Items",
+        "currentlyWearing": "現在着用中の物",
+        "items": "アイテム",
         "cosmetics": "Cosmetics",
-        "bodyParts": "Body Parts",
-        "animations": "Animations",
-        "emotes": "Emotes"
+        "bodyParts": "ボディーパーツ",
+        "animations": "アニメーション",
+        "emotes": "エモート"
     },
     "hiddenGamesProfile": {
-        "noPublicGames": "User has no public experiences",
-        "overlayText": "Hidden Experiences",
-        "noHiddenGames": "This user has no hidden experiences.",
-        "buttonText": "Hidden Experiences",
+        "noPublicGames": "このユーザーには非公開のエクスプリエンスはありません",
+        "overlayText": "非公開のエクスプリエンス",
+        "noHiddenGames": "このユーザーには非公開のエクスプリエンスはありません",
+        "buttonText": "非公開のエクスプリエンス",
         "labels": {
-            "sort": "Sort",
-            "order": "Order",
-            "showAll": "Show All Games"
+            "sort": "並び替え",
+            "order": "順序",
+            "showAll": "すべてのゲームを表示"
         },
         "sort": {
-            "default": "Default",
-            "likeRatio": "Like Ratio",
-            "likes": "Likes",
-            "dislikes": "Dislikes",
-            "players": "Players",
-            "name": "Name (Z-A)"
+            "default": "デフォルト",
+            "likeRatio": "高評価率",
+            "likes": "評価数",
+            "dislikes": "低評価数",
+            "players": "プレイヤー数",
+            "name": "名前 (Z-A)"
         },
         "order": {
-            "descending": "Descending",
-            "ascending": "Ascending"
+            "descending": "降順",
+            "ascending": "昇順"
         },
-        "noMatches": "No experiences match filters.",
-        "loading": "Loading..."
+        "noMatches": "フィルターに一致するエクスペリエンスはありません。",
+        "loading": "読み込み中..."
     },
     "hiddenGroupGames": {
-        "overlayTitle": "Hidden Group Experiences ({{count}} Total)",
-        "noHiddenGames": "This group has no hidden experiences.",
-        "buttonText": "Hidden Experiences",
+        "overlayTitle": "非公開のグループエクスペリエンス（合計 {{count}} 件）",
+        "noHiddenGames": "このグループには非公開のエクスペリエンスが存在しません",
+        "buttonText": "非公開のエクスペリエンス",
         "labels": {
-            "sort": "Sort",
-            "order": "Order",
-            "showAll": "Show All Games"
+            "sort": "並び替え",
+            "order": "順序",
+            "showAll": "すべてのゲームを表示"
         },
         "sort": {
-            "recentlyUpdated": "Recently Updated",
-            "likeRatio": "Like Ratio",
-            "likes": "Likes",
-            "dislikes": "Dislikes",
-            "players": "Players",
-            "name": "Name (Z-A)"
+            "recentlyUpdated": "最近アップデートされた",
+            "likeRatio": "高評価率",
+            "likes": "高評価数",
+            "dislikes": "低評価数",
+            "players": "プレイヤー数",
+            "name": "名前 (Z-A)"
         },
         "order": {
-            "descending": "Descending",
-            "ascending": "Ascending"
+            "descending": "降順",
+            "ascending": "昇順"
         },
-        "noMatches": "No hidden experiences match the current filters.",
-        "loadingMore": "Loading more games..."
+        "noMatches": "現在のフィルターに一致する非公開エクスペリエンスはありません。",
+        "loadingMore": "さらにゲームを読み込み中..."
     },
     "userOutfits": {
         "loading": "Loading outfits...",
